@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 
 # Provides basic authentication functionality for testing parts of your engine
-gem 'spree', github: 'spree/spree', branch: '2-4-stable'
-gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-4-stable'
+gem 'spree', github: 'spree/spree', branch: '3-0-stable'
+gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '3-0-stable'
 gem 'mysql2'
 
 group :assets do 
-  gem 'coffee-rails', '4.0.1'
+  gem 'coffee-rails', '4.1.0'
 end
 
 group :test do
